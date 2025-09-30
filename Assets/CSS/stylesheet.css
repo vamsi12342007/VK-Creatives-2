@@ -1,0 +1,896 @@
+body {
+  font-family: Helvetica;
+   background-color: #2d8bf5;
+  color: white;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color:#2d8bf5;
+  padding: 10px 12px;
+}
+
+.header {
+  background: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  border-radius: 30px;
+  color:#2d8bf5;
+  gap: 16px;
+}
+
+
+
+.servicesimage {
+  border: 1px solid #2d8bf5;
+}
+
+.businesscardscontainer {
+  display: flex;
+  margin:100px 100px;
+}
+
+.paragraph {
+  text-align: left;
+  margin:30px;
+  font-size: 20px;
+  margin: 30px;
+}
+
+.sectionpageicon
+{
+  width: 100px;
+  height: auto;
+}
+
+.businesscardsinfo {
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+
+.contacth1 {
+  color: black;
+  margin-left:300px;
+  font-size: 30px;
+}
+
+#contactslogan2 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin: 0 auto;
+  display: block;
+}
+
+#contactparagraph {
+
+  width: 80%;
+  text-align: center;
+  margin: 20px auto;
+  color: white;
+  font-size: 20px;
+
+}
+
+.contactpagecontainer {
+  display: flex;
+  background-color: white;
+  color:#2d8bf5;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 12px;
+  flex-wrap: wrap;
+}
+
+#contactinfo {
+  font-size: 20px;
+  margin: 0;
+}
+#contactinfo p { margin: 4px 0; }
+
+.ContactForm {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /*border: 3px solid black;*/
+  text-align: left;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  width: 95%;
+  max-width: 700px;
+  border-radius: 10px;
+  border: 3px solid white;
+  font-size: 18px;
+  box-sizing: border-box;
+
+}
+
+.formfield
+{
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+
+}
+
+
+  .formfieldbutton {
+    display: block;
+    margin: 20px auto;   /* centers button */
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #2d8bf5;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+
+
+
+
+.ContactForm div { margin-bottom: 12px; }
+.ContactForm label { display: block; margin-bottom: 6px; }
+.ContactForm input[type="text"] { width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd; box-sizing: border-box; }
+
+
+#messageinput {
+  width: 100%;
+  height: 120px;
+  margin: 0;
+}
+
+#contact2info {
+  text-align: center;
+  font-size: 20px;
+}
+
+.contact2image {
+  border: 3px solid black;
+  display: block;
+  margin: 20px auto;
+}
+
+#Button {
+  width: 140px;
+  height: 48px;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#contactlogo {
+  margin-bottom: 0;
+  position: static;
+  border: 3px solid white;
+}
+.logo h1 {
+  font-size: 28px;
+}
+
+.logo span {
+  font-weight: normal;
+}
+
+#contactcontainer {
+  background-color: white;
+}
+
+.businesscardsimage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 80%;
+  margin: 10px auto;
+
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+
+  padding: 12px 16px;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+.businesscardimage2{
+  position: static;
+  margin-left: 20%;
+}
+
+
+.businesscardsimage h1 {
+  margin: 0px;
+  position: static;
+  font-size: 32px;
+  color: #2d8bf5;
+}
+
+.businesscardimage {
+  margin:50px;
+}
+
+.button {
+  border: 5px solid white;
+  background-color: white;
+  border-radius: 15px;
+  font-size: 20px;
+  width:50px;
+  padding:10px;
+  color: #2d8bf5;
+  position: relative;
+  top:0px;
+  text-decoration: none;
+}
+
+.button:hover {
+  border: 5px solid white;
+  background-color: #2d8bf5;
+  border-radius: 15px;
+  font-size: 20px;
+  width:50px;
+  padding:15px;
+  color: white;
+  position: relative;
+  top:0px;
+  text-decoration: none;
+}
+
+.submitbutton {
+  border: 5px solid white;
+  background-color: white;
+  border-radius: 15px;
+  font-size: 20px;
+  width:50px;
+  padding:10px;
+  color: #2d8bf5;
+  position: relative;
+  top:0px;
+  text-decoration: none;
+}
+
+.submitbutton:hover {
+  border: 2px solid white;
+  background-color: #2d8bf5;
+  border-radius: 15px;
+  font-size: 20px;
+  width:50px;
+  padding:10px;
+  color: white;
+  position: relative;
+  top:0px;
+  text-decoration: none;
+}
+
+.mainslogan {
+  margin-top: 8px;
+  font-size: 20px;
+  color: #2d8bf5;
+  text-align: center;
+}
+
+h1 {
+  color:white;
+}
+
+#slogan {
+  font-size: 60px;
+  position: relative;
+  left:120px;
+}
+
+#slogan2 {
+  font-size: 90px;
+  margin:-30px;
+  position: relative;
+  left:-20px;
+  
+}
+
+h2 {
+  font-size: 40px;
+  text-align: left;
+  color: #2d8bf5;
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 30px;
+  width: 700px;
+  height: 50px;
+  background-color: white;
+
+
+}
+
+.serviceshead
+{
+  text-align: center;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5%;
+  align-content: center;
+}
+
+.containergrid
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.container {
+
+
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: top;
+  box-sizing: border-box;
+  text-align: left;
+  background: #ffffff;
+  color: #2d8bf5;
+  border-radius: 20px;
+  border: 1px solid rgba(45, 139, 245, 0.2);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+
+  /* sizing & spacing */
+  margin: 20px;
+  max-width: 360px;
+  width: calc(100% - 40px);
+
+  /* animated hover */
+  transform: translateY(0);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+
+.container:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+/* sub container */
+
+.subcontainer {
+
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: top;
+  box-sizing: border-box;
+  text-align: left;
+  background: #ffffff;
+  color: #2d8bf5;
+  border-radius: 20px;
+  border: 1px solid rgba(45, 139, 245, 0.2);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+
+  /* sizing & spacing */
+  margin: 20px;
+  max-width: 360px;
+  width: calc(100% - 40px);
+
+  /* animated hover */
+  transform: translateY(0);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+
+.subcontainer:hover {
+  transform: translateY(-6px) scale(0.9);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+
+}
+
+
+
+/* make media inside card fit edge-to-edge */
+.container > img,
+.container .image,
+.container .servicesicon {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0; /* remove inner img border for clean card */
+  border-radius: 0;
+}
+/* inner spacing for text blocks within card */
+.container .title,
+.container .description {
+  padding: 0 16px 8px 16px;
+  text-align: left;
+}
+/* ensure anchor-wrapped images don't add blue border */
+.container a { display: block; color: inherit; text-decoration: none; }
+.container a img { display: block; }
+/* put some space above title */
+.container .title { padding-top: 12px; }
+/* Ensure card has relative context for absolute elements */
+.container { position: relative; }
+
+
+
+
+
+/* make media inside card fit edge-to-edge */
+.subcontainer > img,
+.subcontainer .image,
+.subcontainer .servicesicon {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0; /* remove inner img border for clean card */
+  border-radius: 0;
+}
+/* inner spacing for text blocks within card */
+.subcontainer .title,
+.subcontainer .description {
+  padding: 0 16px 8px 16px;
+  text-align: left;
+}
+/* ensure anchor-wrapped images don't add blue border */
+.subcontainer a { display: block; color: inherit; text-decoration: none; }
+.subcontainer a img { display: block; }
+/* put some space above title */
+.subcontainer .title { padding-top: 12px; }
+/* Ensure card has relative context for absolute elements */
+.subcontainer { position: relative; }
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #2d8bf5;
+}
+
+.description {
+  max-width: 100%;
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Arial', sans-serif;
+  color: #377fd9;
+}
+
+  img {
+    border-radius: 30px;
+    border:1px solid white;
+    max-width: 100%;
+    height: auto;
+  }
+/* Override default image border/radius inside trending cards for clean edges */
+.container img { border: 0; border-radius: 0; }
+
+footer {
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: space-between; /* left, middle, right */
+  align-items: center;
+  flex-wrap: wrap;               /* allow items to wrap on small screens */
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.contact, .quote, .social {
+  flex: 1 1 250px;      /* flex-grow:1, flex-shrink:1, base width 250px */
+  min-width: 200px;     /* prevents them from shrinking too much */
+  margin: 10px;         /* spacing between items */
+}
+
+.contact {
+  text-align: left;
+}
+
+.quote {
+  text-align: center;
+  font-size: 30px;
+  color: #2d8bf5;
+}
+
+.social {
+  text-align: right;    /* right-align text for symmetry */
+}
+
+
+
+
+.homecontainer {
+  display: flex;
+  margin-top:30px;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.homeslogan {
+  font-size: 14px;
+  margin:120px 30px;
+  font-family:Helvetica;
+
+}
+
+#homeimage {
+  margin-bottom: 100px;
+  border: 1px solid #2d8bf5;
+  position: relative;
+  left:90px;
+}
+
+#servicestitleres {
+  /*margin-left:-70px;*/
+  color:#2d8bf5;
+}
+
+#servicestitleusa {
+   /*margin-left:-70px;*/
+   color:#2d8bf5;
+}
+
+#servicestitlecor {
+  /*margin-left:-70px;*/
+  color:#2d8bf5;
+}
+
+#servicestitlegra {
+  /*margin-left:-110px;*/
+  color:#2d8bf5;
+}
+
+#servicestitlewed {
+  /*margin-left:-290px;*/
+  color:#2d8bf5;
+}
+.servicestitle{
+  color:#2d8bf5;
+}
+
+.servicesicon {
+   transition: transform .10s;
+}
+
+.servicesicon:hover {
+  transform: scale(0.9);
+}
+
+.social {
+  color:#2d8bf5;
+}
+
+.contact{
+  color:#2d8bf5;
+}
+/* Responsive enhancements and consistent padding */
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.logo img {
+  display: block;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav a + a {
+  margin-left: 10px;
+}
+.section-padding {
+  padding: 20px;
+}
+/* Headings box adjust to content */
+h2 {
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+/* Hero/home area responsiveness */
+.homecontainer {
+  gap: 24px;
+}
+@media (max-width: 1024px) {
+  .header {
+    padding: 10px 16px;
+  }
+  #slogan { font-size: 40px; left: 0; }
+  #slogan2 { font-size: 56px; left: 0; margin: 0; }
+}
+@media (max-width: 768px) {
+  .header { flex-wrap: wrap; gap: 12px; }
+  .logo { align-items: center; width: 100%; }
+  .mainslogan { font-size: 16px; text-align: center; }
+  .nav { width: 100%; justify-content: flex-end; flex-wrap: wrap; }
+  .nav a { padding: 8px 10px; margin-left: 12px; }
+  .homecontainer { flex-direction: column; align-items: center; margin: 20px 10px 0; }
+  .homeslogan { margin: 20px 10px; text-align: center; }
+  #homeimage { left: 0; margin-bottom: 20px; }
+  h2 { font-size: 32px; }
+  .container { display: block; margin: 16px auto; text-align: center; }
+  .contactpagecontainer { flex-direction: column; align-items: center; text-align: center; }
+  #contactlogo { align-self: center; margin-top: 12px; }
+}
+@media (max-width: 480px) {
+  .nav a { padding: 6px 8px; margin-left: 8px; font-size: 16px; }
+  #slogan { font-size: 28px; }
+  #slogan2 { font-size: 36px; }
+  .businesscardsimage h1 { font-size: 36px; text-align: center; }
+}
+
+/* Make whole card clickable when wrapped as anchor */
+a.container { display: inline-block; cursor: pointer; }
+a.container:focus-visible { outline: 3px solid #2d8bf5; outline-offset: 2px; text-decoration: none; }
+
+/* Modern responsive enhancements */
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --radius-1: 12px;
+  --radius-2: 24px;
+  --shadow-1: 0 6px 18px rgba(0,0,0,0.12);
+  --shadow-2: 0 12px 28px rgba(0,0,0,0.18);
+}
+
+body {
+  margin: 0;
+  line-height: 1.4;
+  overflow-x: hidden;
+}
+html { overflow-x: hidden; }
+
+/* Subtle horizontal rule to separate sections */
+hr {
+  border: 0;
+  height: 1px;
+  background: rgba(255,255,255,0.6);
+  margin: var(--space-6) auto;
+  max-width: 1200px;
+}
+
+/* Center and contain header/footer and major sections */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  padding: 10px 10%;
+  box-sizing: border-box;
+}
+.footer {
+  width: 100%;
+  max-width: none;
+  margin: var(--space-6) 0 0 0;
+  border-radius: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  padding: 30px 5%;
+}
+.footer > div { min-width: 220px; }
+
+/* Section headings spacing */
+h2 {
+  margin: var(--space-5) auto var(--space-3);
+}
+
+/* Centered heading without borders for Services */
+.services {
+  text-align: center;
+  display: inline-block;
+  margin: var(--space-6) auto var(--space-4);
+  padding: 6px 14px;
+  border: 0;
+  border-radius: 0;
+  background: #ffffff;
+}
+
+/* Responsive card grids for sections without changing HTML */
+#graphicdesign,
+#webdevelopment,
+#video\/Photo {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-5);
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-5);
+  background: #aad4ff;
+  border-radius: var(--radius-2);
+  justify-items: center;
+}
+
+/* Make section headings centered and span grid width */
+#graphicdesign > h2,
+#webdevelopment > h2,
+#video\/Photo > h2 {
+  text-align: center;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+  margin: var(--space-6) 0 var(--space-4);
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+/* Tweak the top Services trio to align as a responsive grid as well */
+.services { max-width: 1200px; margin: 0 auto; padding: 0 var(--space-4); display: block; text-align: center; }
+
+/* Create a responsive grid for the top three service cards */
+.services + a.container,
+.services + a.container + a.container,
+.services + a.container + a.container + a.container {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(33.333% - 40px);
+  max-width: 360px;
+  margin: 20px;
+}
+
+/* Make the three hero service cards wrap nicely */
+/* Target all anchors with class container that follow the Services heading at top-level */
+body > a.container { display: block; width: calc(100% - 40px); max-width: 360px; margin-left: auto; margin-right: auto; }
+
+/* Improve card internals spacing and hover */
+.container {
+  border-radius: var(--radius-2);
+  box-shadow: var(--shadow-1);
+}
+.container:hover {
+  box-shadow: var(--shadow-2);
+}
+.container .title { font-size: 22px; }
+.container .description { font-size: 15px; color: #2a6fc7; }
+
+/* Better image treatment across site while preserving colors */
+img:not(.container img) {
+  border-radius: 16px;
+}
+
+/* Improve spacing around the hero section */
+.homecontainer { max-width: 1200px; margin: 40px auto 0; padding: 0 var(--space-4); }
+
+@media (max-width: 1024px) {
+  #graphicdesign,
+  #webdevelopment,
+  #video\/Photo {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  body > a.container { width: calc(50% - 40px); }
+  .services + a.container,
+  .services + a.container + a.container,
+  .services + a.container + a.container + a.container {
+    width: calc(50% - 40px);
+  }
+}
+
+@media (max-width: 768px) {
+  .header { position: sticky; top: 0; margin: 0; }
+  #graphicdesign,
+  #webdevelopment,
+  #video\/Photo {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+  body > a.container { width: calc(100% - 40px); }
+  .services + a.container,
+  .services + a.container + a.container,
+  .services + a.container + a.container + a.container {
+    width: calc(100% - 40px);
+    display: block;
+  }
+  .footer { margin: var(--space-5) 0 0 0; padding: 20px 5%; justify-content: center; text-align: center; }
+  .footer > div { min-width: 180px; }
+  /* Make inner info paragraphs wider on mobile */
+  .paragraph { width: 80%; margin-left: auto; margin-right: auto; box-sizing: border-box; }
+  /* Page hero: hide image, keep only heading styled like Services */
+  .businesscardsimage { justify-content: center; text-align: center; padding: 0 5%; }
+  .businesscardsimage img { display: none; }
+  .businesscardsimage h1,
+  .businesscardsimage .servicestitle { display: inline-block; background: #ffffff; color: #2d8bf5;
+
+    /*padding: 6px 14px;*/
+    margin: 16px 0; border-radius: 0; border: 0; }
+  /* Stack service content and fill service image */
+  .businesscardscontainer { flex-direction: column; align-items: center; margin: 20px; }
+  .servicesimage { width: 100% !important; max-width: 100%; height: auto; display: block; }
+  .businesscardsinfo { text-align: center; }
+  /* Contact button styling */
+  .button {
+    display: inline-block; width: 100%; max-width: 150px;
+   background: #ffffff; color: #2d8bf5; padding: 10px 16px; border: 3px solid #ffffff; margin-top: 12px; }
+}
+
+
+footer {
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.contact, .quote, .social {
+  text-align: center;
+  flex: unset;
+  min-width: unset;
+  margin: 10px 0;
+}
+
+.quote {
+  font-size: 24px;
+}
+}
+
+/* Ensure nav fills width and aligns nicely */
+.nav {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.logo { flex: 0 0 auto; }
+.nav a { font-weight: 600; border-radius: 999px; }
+.nav a:hover { background: rgba(45,139,245,0.1); }
+
+/* Hamburger button */
+.menu-toggle {
+  display: none;
+  background: #ffffff;
+  color: #2d8bf5;
+  border: 1px solid rgba(45,139,245,0.3);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: auto;
+}
+.menu-toggle:hover { background: rgba(255,255,255,0.85); }
+
+@media (max-width: 768px) {
+  .menu-toggle { display: inline-block; }
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    padding: 8px 12px 12px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    z-index: 99;
+  }
+  .nav a { color: #2d8bf5; display: block; width: 100%; padding: 10px 12px; margin-left: 0; }
+  .nav.nav--open { display: flex; }
+}
