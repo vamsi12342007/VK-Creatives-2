@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VK Creatives</title>
+    <link rel="stylesheet" href="Assets/CSS/stylesheet.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="Assets/Images/VK Logo.png" width="200px" height="150px" alt="logo">
+<!--            <p class="mainslogan">"We Take Pride in Designing your vision"</p>-->
+        </div>
+        <button class="menu-toggle" aria-controls="primary-navigation" aria-expanded="false">☰ Menu</button>
+        <nav class="nav" id="primary-navigation">
+            <a href="index.html">Home</a>
+            <a href="index.html#homepage">Services</a>
+            <a href="https://www.vamsikportfolio.ca/">Previous works</a>
+            <a href="Contact.html">Contact us</a>
+        </nav>
+    </header>
+
+    <div>
+        <div class="businesscardsimage">
+            <img class="sectionpageicon" src="Assets/Images/Contact Logo.png" alt="businesscard image">
+            <h1 class="servicestitle">CONTACT US</h1>
+        </div>
+    </div>
+
+    <div>
+
+
+        <p id="contactparagraph">If you're looking for professional graphic design, web development, or video/photo
+            services, look no further!
+            Our team is here to bring your creative ideas to life with high-quality, tailored solutions. Whether you
+            need a stunning website, engaging visuals, or compelling videos and photos, we have the expertise to make
+            your vision a reality. Contact us today to discuss your project, and let's create something amazing
+            together! We're ready to help you with all your design and development needs.</p>
+
+        <p id="contactslogan2">"Design. Develop. Capture. Let's Bring Your Vision to Life!"</p>
+
+    </div>
+
+    <hr>
+
+    <div class="contactpagecontainer">
+        <div id="contactinfo">
+            <p>Phone Number:647-702-7148</p>
+            <p>Email:vamsik@vkcreatives.ca</p>
+            <p>Website:vkcreatives.ca</p>
+        </div>
+
+            <div id="contactlogo">
+                <img src="Assets/Images/VK Logo.png" width="200px" height="150px" alt="logo">
+            </div>
+    </div>
+
+    <hr>
+
+    <form class="ContactForm" onsubmit="contactSubmit(event)">
+        <div class="formfield">
+            <label for="firstnametext">First Name</label>
+            <input id="firstnametext" name="first" type="text" />
+        </div>
+
+        <div class="formfield">
+            <label for="lastnametext">Last Name</label>
+            <input id="lastnametext" name="last" type="text" />
+        </div>
+
+        <div class="formfield">
+            <label for="emailtext">Email Address</label>
+            <input id="emailtext" name="email" type="text" />
+        </div>
+
+        <div class="formfield">
+            <label for="phonenumbertext">Phone Number</label>
+            <input id="phonenumbertext" name="phone" type="text" />
+        </div>
+
+        <div class="formfield">
+            <label for="messageinput">Message</label>
+            <input id="messageinput" type="text" name="message" />
+        </div>
+
+        <div class="formfieldbutton">
+            <a href="Contact2.html"><input type="submit" id="Button" class="submitbutton" value="Submit" /></a>
+        </div>
+    </form>
+
+
+    <footer class="footer">
+        <div class="contact">
+            <h3>Contact us</h3>
+            <p>📞 647-702-7148</p>
+            <p>✉️ vamsik@vkcreatives.ca</p>
+            <p>🌐 vkcreatives.ca</p>
+        </div>
+        <div class="quote">
+            <p>"Every pixel tells<br>a story."</p>
+        </div>
+        <div class="social">
+            <h3>Follow us</h3>
+            <p>🔗 Facebook | Instagram | X</p>
+        </div>
+    </footer>
+    <script>
+      (function() {
+        var toggle = document.querySelector('.menu-toggle');
+        var nav = document.getElementById('primary-navigation');
+        if (toggle && nav) {
+          toggle.addEventListener('click', function() {
+            var isOpen = nav.classList.toggle('nav--open');
+            toggle.setAttribute('aria-expanded', String(isOpen));
+          });
+          nav.addEventListener('click', function(e) {
+            if (e.target && e.target.tagName === 'A' && nav.classList.contains('nav--open')) {
+              nav.classList.remove('nav--open');
+              toggle.setAttribute('aria-expanded', 'false');
+            }
+          });
+        }
+      })();
+    </script>
+</body>

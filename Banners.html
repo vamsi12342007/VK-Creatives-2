@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VK Creatives</title>
+    <link rel="stylesheet" href="Assets/CSS/stylesheet.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="Assets/Images/VK Logo.png" width="200px" height="200px" alt="logo"></a>
+            <!--            <p class="mainslogan">"We Take Pride in Designing your vision"</p>-->
+        </div>
+        <button class="menu-toggle" aria-controls="primary-navigation" aria-expanded="false">☰ Menu</button>
+        <nav class="nav" id="primary-navigation">
+            <a href="index.html">Home</a>
+            <a href="index.html#homepage">Services</a>
+            <a href="https://www.vamsikportfolio.ca/">Previous works</a>
+            <a href="Contact.html">Contact us</a>
+        </nav>
+    </header>
+
+    <div class="servicespagehead">
+        <div class="businesscardsimage">
+            <img class="businesscardimage2" src="Assets/Images/Banners 2.png" alt="businesscard image" width="300"
+                height="200">
+            <h1 class="servicestitle">BANNERS</h1>
+        </div>
+    </div>
+
+    <div class="businesscardscontainer">
+        <div>
+            <img class="servicesimage" src="Assets/Images/Services Images/Banners.png" alt="all four cards combined"
+                width="500" height="300">
+        </div>
+
+        <div class="businesscardsinfo">
+            <h3>Information</h3>
+            <p class="paragraph">We design striking banners that capture attention and promote your brand, events, or
+                campaigns effectively. Our banners are visually engaging and tailored to make a strong impact across
+                digital and print platforms.</p>
+            <a href="contact.html" class="button">Contact us</a>
+        </div>
+    </div>
+</body>
+
+
+
+
+
+
+<footer class="footer">
+    <div class="contact">
+        <h3>Contact us</h3>
+        <p>📞 647-702-7148</p>
+        <p>✉️ vamsik@vkcreatives.ca</p>
+        <p>🌐 vkcreatives.ca</p>
+    </div>
+    <div class="quote">
+        <p>"Every pixel tells<br>a story."</p>
+    </div>
+    <div class="social">
+        <h3>Follow us</h3>
+        <p>🔗 Facebook | Instagram | X</p>
+    </div>
+</footer>
+<script>
+    (function () {
+        var toggle = document.querySelector('.menu-toggle');
+        var nav = document.getElementById('primary-navigation');
+        if (toggle && nav) {
+            toggle.addEventListener('click', function () {
+                var isOpen = nav.classList.toggle('nav--open');
+                toggle.setAttribute('aria-expanded', String(isOpen));
+            });
+            nav.addEventListener('click', function (e) {
+                if (e.target && e.target.tagName === 'A' && nav.classList.contains('nav--open')) {
+                    nav.classList.remove('nav--open');
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
+    })();
+</script>
+</body>
